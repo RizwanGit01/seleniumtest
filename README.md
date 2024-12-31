@@ -5,7 +5,7 @@ Automate the validation of search functionality on the Selenium Playground websi
 
 ## Setup Instructions
 
-1.   **Create Virtual Environment**
+1. **Create Virtual Environment**
    - `python -m venv venv`
    - `source venv/bin/activate`
 
