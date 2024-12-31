@@ -5,15 +5,17 @@ Automate the validation of search functionality on the Selenium Playground websi
 
 ## Setup Instructions
 
-1. **Install Dependencies**:
-   - Ensure you have Python and pip installed.
-   - Install Selenium: `pip install selenium`
-   - Install pytest: `pip install pytest`
+1.   **Create Virtual Environment**
+   - `python -m venv venv`
+   - `source venv/bin/activate`
 
-2. **WebDriver**:
+2. **Install Dependencies**:
+   - `pip install -r requirements.txt`
+
+3. **WebDriver**:
    - Download ChromeDriver from [here](https://sites.google.com/chromium.org/driver/) and ensure it's in your PATH.
 
-3. **Run the Test**:
+4. **Run the Test**:
    - Execute the test using pytest: `pytest qa_selenium_test.py`
    - The browser will open and perform automated actions to validate the search functionality.
    - Run in two major browsers: Chrome and Firefox.
